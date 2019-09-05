@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Sipatuh | Outbox</title>
+    <% include ./include/head %>
+    <body id="page-top"> 
+    <div id="wrapper">
+        <% include ./include/nav %>
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+       <!-- Main Content -->
+       <div id="content">
+            <% include ./include/content_topbar %>
+                  <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+            <!-- Page Heading -->
+            <h1 class="h3 mb-2 text-gray-800">Outbox Detail</h1>
+                
+            <!-- DataTales Example -->
+            <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">
+                                    Buku Pedoman Operasional (BPO) - No Surat Pengujian : e-XXX/XXX/XXX/XXX</h6>
+                          </div>
+              <div class="card-body">
+                <div class="table table-responsive table-sm">
+                  <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" data-toolbar='#toolbar'>
+                    <thead>
+                      <tr>
+                        <th class="th-sm">Tanggal</th>
+                        <th class="th-sm">Posisi</th>
+                        <th class="th-sm">Status</th>
+                        <th class="th-sm">Keterangan</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>tgl01</td>
+                        <td>Pemrakarsa</td>
+                        <td>Kirim Pengujian</td>
+                        <td><a href="#" class="btn btn-success btn-circle btn-sm">
+                                <i class="fas fa-check"></i>
+                              </a> Complete  
+                            </td>
+                      </tr>
+                      <tr>
+                            <td>tgl02</td>
+                            <td>MR</td>
+                            <td>Pemberian Opini</td>
+                            <td><a href="#" class="btn btn-warning btn-circle btn-sm">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                  </a> OnProgress</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.container-fluid -->
+        </div>
+        <!-- End of Main Content -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+
+          <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+
+        <% include ./include/scripts %>
+        <% include ./include/footer %>
+
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <% include ./include/head %>
+    <style>
+        div.background {
+        background: url(../bg.gif); 
+        border: 2px solid black;
+    }
+    .transbox {
+        margin: 40px;
+        background-color: white;
+        border: 0px solid black;
+        opacity: 0.9;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
+    }
+    .transbox p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    </style>
+
+    <body class="text-center"  background="../bg.gif" >
+        <div align ="center" style="margin-top:10em;"> 
+        
+            <div class="transbox" style="width: 25%;">
+            <div class="card-header"> 
+
+                <form action="">
+                        <h1 class="h3 mb-3 font-weight-normal"><img src="../brilife-min.png" class="img-fluid" width="200"></h1>
+                        <h1 class="h3 mb-3 font-weight-normal"><b><i style="color: #e96711;">
+
+
+                                Si </i></b><b><i style="color: #0d57a0;">Patuh </i></b></h1>
+                        <h1 class="h3 mb-3 font-weight-normal">Selamat Datang</h1>
+
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="email" name="email" placeholder="No Pegawai"> 
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox"> Remember me</label>
+                    </div>
+                    <a href="/home">
+                        <button class="btn btn-primary" type="button" value="Submit" id="submit">Masuk</button>
+                    </a>
+                  </form>
+
+                <p class="mt-5 mb-3" style="color: #000000;">© BRI Life 2019</p>
+            </div>
+        </div>
+
+    </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster 
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        // IE10 viewport hack for Surface/desktop Windows 8 bug 
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script> -->
+    </body>
+</html>
