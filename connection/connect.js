@@ -2,8 +2,8 @@ var sql = require("mssql");
 var connect = function()
 {
     var conn = new sql.ConnectionPool({
-        user: 'sa',
-        password: 'P@ssw0rd',
+        user: 'dirahasiakan',
+        password: 'dirahasiakan',
         server: 'localhost',
         database: 'PARU'
     });
